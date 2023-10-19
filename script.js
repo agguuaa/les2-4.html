@@ -6,7 +6,9 @@ function displayWelcomeMessage() {
 
   var welcomeMessage = "Hello " + name + "! You are " + age + " years old.";
   console.log(
-    "The sentence consists of " + welcomeMessage.length + " characters."
+    "The letter 'r' first appears at position " +
+      welcomeMessage.indexOf("r") +
+      "."
   );
 
   var welcomeElement = document.createElement("h1");
